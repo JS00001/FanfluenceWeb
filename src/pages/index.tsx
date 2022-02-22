@@ -10,15 +10,21 @@ export default function Home() {
 
   return (
     <html className={theme}>
-      <div className="container mx-auto bg-white">
-        <Navigation />
+      <Head>
+        <title>Fanfluence</title>
+      </Head>
 
+      <header className="fixed top-0 z-10 w-full shadow">
+        <Navigation />
+      </header>
+
+      <main className="container mx-auto mt-28">
         <div className="flex flex-col items-center py-10 lg:flex-row lg:justify-around">
           <div className="flex w-[27rem] flex-col p-5 py-32 text-center lg:text-left">
             <span className="font-semibold text-blue-600">
               CREATE CONNECTIONS
             </span>
-            <span className="leading-tighter text-6xl font-bold text-gray-800">
+            <span className="leading-tighter text-6xl font-black text-gray-800">
               The best app for fans and creators.
             </span>
             <span className="mt-20 font-semibold text-gray-800">
@@ -46,7 +52,9 @@ export default function Home() {
             <Image alt="test" width="600" height="700" src="/ImagePhone.png" />
           </div>
         </div>
-      </div>
+      </main>
+
+      <footer></footer>
     </html>
   );
 }

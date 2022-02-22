@@ -5,7 +5,7 @@ export default function Navigation() {
     <nav className="border-gray-200 bg-white px-4 py-5 sm:px-4">
       <div className="container mx-auto flex flex-wrap items-center justify-around">
         <a href="#" className="flex text-2xl font-bold text-blue-500">
-          Fanfluence
+          fanfluence
         </a>
         <div className="flex md:order-2">
           <button className="rounded-full bg-blue-600 px-8 py-3 text-sm font-medium text-white hover:bg-blue-700 focus:ring-4 focus:ring-blue-300">
