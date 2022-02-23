@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .gradient {
+    @apply bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent;
+  }
+}
