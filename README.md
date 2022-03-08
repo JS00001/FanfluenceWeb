@@ -1,27 +1,24 @@
-# Next.js + Tailwind CSS Example
+# ⭐Fanfluence
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Fanfluence is a platform that connects fans and creators. We are building a community of fans and creators that are passionate about what they do.
 
-## Preview
+![image](https://user-images.githubusercontent.com/49812749/157285799-edbd15c7-e3c6-4264-91d8-0dec138b0c75.png)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## 🚀 Problem
+For a long time, creators have been out of touch with their audience, and audiences out of touch with their favorite creators. Fanfluence seeks to fix this. 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## How to use
+## ❤️ The Solution
+- Fanfluence is an app dedicated to creating communities for creators to interact with fans. 
+- Users can win access to creators' communities and will attain access to private posts, giveaways, etc.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## 🔨 Setup
+- Make sure you have `NodeJS` installed.
+- Clone this project
+- Open a command prompt in the projects folder, and run `npm install`
+- Once the installation has completed, run `npm run start` to run the application.
+- Navigate to https://localhost:3000
